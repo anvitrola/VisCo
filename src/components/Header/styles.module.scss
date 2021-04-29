@@ -1,0 +1,13 @@
+.headerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3rem;
+    background-color: var(--green);
+    padding: .5rem;
+
+    h1{
+        color: var(--gold);
+        font-family: 'Montserrat', sans-serif;
+    }
+}
