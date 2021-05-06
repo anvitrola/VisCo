@@ -1,0 +1,13 @@
+.navBarContainer{
+    width: 30%;
+
+    ul{
+        width: 100%;
+        color: var(--gold);
+        text-transform: capitalize;
+        font-family: 'Montserrat', sans-serif;
+        justify-content: space-between;
+        list-style-type: none;
+        display: flex;
+    }
+}
