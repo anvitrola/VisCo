@@ -2,7 +2,7 @@
     grid-area: main;
     justify-self: center;
     align-self: center;
-    width: 80%;
+    width: 95%;
     height: 90%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -24,26 +24,11 @@
 
     form{
         grid-area: form;
-        width: 100%;
+        width: 90%;
+        justify-self: center;
         justify-content: space-evenly;
         display: flex;
         flex-direction: column;
-
-        button{
-            padding: .5rem;
-            border: none;
-            border-radius: 3px;
-            background-color: var(--gold);
-            color: var(--green);
-            transition: .5s all;
-            width: 50%;
-            align-self: flex-end;
-        }
-        button:hover{
-            background-color: var(--green);
-            color: var(--gold);
-        }
-
     }
 
 }
@@ -68,5 +53,6 @@
 .contactImage{
     grid-area: image;
     width: 100%;
-    align-self: flex-start;
+    box-shadow: 15px -16px var(--gold);
+    align-self: center;
 }

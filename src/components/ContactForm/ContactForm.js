@@ -1,8 +1,10 @@
 import { Component } from "react";
+import Button from '../Button/Button.js';
+
 import contactImage from "../../images/contact.jpg";
 import styles from "./styles.module.scss";
 
-export default class signInForm extends Component {
+export default class ContactForm extends Component {
   render() {
     return (
       <div className={styles.formContainer} >
@@ -26,7 +28,7 @@ export default class signInForm extends Component {
             <input type="text" id="userPassword" />
           </div>
 
-          <button type="submit">Enviar</button>
+          <Button type={"submit"} text={"Enviar"}/>
         </form>
       </div>
     );
