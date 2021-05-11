@@ -8,6 +8,7 @@ export default class Button extends Component {
         this.text = this.props.text;
 
         this.onMouseClick = this.onMouseClick.bind(this);
+        this.componentDidMount = this.componentDidMount.bind(this);
 
         this.state = {
             isDisabled: false,
@@ -17,7 +18,6 @@ export default class Button extends Component {
         event.preventDefault();
         setTimeout(this.setState({isDisabled: !this.isDisabled}), 3000);
     }
-
     render() {
         return (
             <button 

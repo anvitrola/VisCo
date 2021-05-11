@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import ContactForm from './components/ContactForm/ContactForm';
 import MainBanner from './components/MainBanner/MainBanner';
+import DrinksCard from './components/DrinksCard/DrinksCard';
 
 import styles from './styles/App.module.scss';
 import "./styles/global.scss";
@@ -21,6 +22,9 @@ class App extends React.Component {
             </Route>
             <Route path="/contact">
               <ContactForm/>
+            </Route>
+            <Route path="/menu">
+              <DrinksCard/>
             </Route>
           </Switch>
           <Footer/>
