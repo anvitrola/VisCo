@@ -1,4 +1,6 @@
-button{
+import styled from "styled-components";
+
+export const Btn = styled.button`
     padding: .5rem;
     border: none;
     border-radius: 3px;
@@ -18,4 +20,4 @@ button{
     &:disabled{
         cursor: not-allowed;
     }
-}
+`;

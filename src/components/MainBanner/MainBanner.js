@@ -1,14 +1,10 @@
-import React, { Component } from 'react';
 import banner from "../../images/banner1.png";
-import styles from "./styles.module.scss";
+import { BannerArea } from "./MainBanner.styles";
 
-
-export default class MainBanner extends Component {
-    render() {
-        return (
-            <main className={styles.mainBannerArea}>
-                <img src={banner} alt="Imagem de um bar florido"></img>
-            </main>
-        )
-    }
+export default function MainBanner() {
+  return (
+    <BannerArea>
+      <img src={banner} alt="Imagem de um bar florido"/>
+    </BannerArea>
+  );
 }

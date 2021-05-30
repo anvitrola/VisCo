@@ -1,36 +1,46 @@
-import { Component } from "react";
-import Button from '../Button/Button.js';
+import { useEffect, useState } from "react";
+
+import Button from "../Button/Button.js";
+import FormField from "../FormField/FormField";
 
 import contactImage from "../../images/contact.jpg";
-import styles from "./styles.module.scss";
 
-export default class ContactForm extends Component {
-  render() {
-    return (
-      <div className={styles.formContainer} >
-        <h1>Contato</h1>
+import { Container, Field, Image } from "./ContactForm.styles";
 
-        <img src={contactImage} alt="" className={styles.contactImage}/>
-        
-        <form>
-          <div className={styles.formFields}>
-            <label htmlFor="userName">Nome</label>
-            <input type="text" id="userName" />
-          </div>
+export default function ContactForm() {
+  const [value, setValue] = useState("");
 
-          <div className={styles.formFields}>
-            <label htmlFor="userEmail">E-mail</label>
-            <input type="text" id="userEmail" />
-          </div>
+  useEffect(() => {
+    console.log("A");
+  }, []);
+  useEffect(() => {
+    console.log(value);
+  }, [value]);
+  useEffect(() => {
+    console.log("C");
+  });
 
-          <div className={styles.formFields}>
-            <label htmlFor="userPassword">Mensagem</label>
-            <input type="text" id="userPassword" />
-          </div>
+  return (
+    <Container>
+      <h1>Contato</h1>
 
-          <Button type={"submit"} text={"Enviar"}/>
-        </form>
-      </div>
-    );
-  };
+      <Image src={contactImage} alt="" />
+
+      <form>
+        <Field>
+          <FormField text={"Nome"} name={"name"} type={"text"} />
+        </Field>
+
+        <Field>
+          <FormField text={"E-mail"} name={"email"} type={"email"} />
+        </Field>
+
+        <Field>
+          <FormField text={"Mensagem"} name={"message"} type={"text"} />
+        </Field>
+
+        <Button type={"submit"} text={"Enviar"} />
+      </form>
+    </Container>
+  );
 }

@@ -1,14 +1,11 @@
-import { Component } from 'react';
-import NavBar from '../NavBar/NavBar';
-import styles from "./styles.module.scss";
+import NavBar from "../NavBar/NavBar";
+import { HeaderContainer, Logo } from "./Header.styles";
 
-export default class Header extends Component {
-  render() {
-    return (
-      <header className={styles.headerContainer}>
-        <h1>VIS co.</h1>
-        <NavBar/>
-      </header>
-    );
-  }
+export default function Header() {
+  return (
+    <HeaderContainer>
+      <Logo to="/">VIS co.</Logo>
+      <NavBar />
+    </HeaderContainer>
+  );
 }
