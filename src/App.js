@@ -5,16 +5,16 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import ContactForm from './components/ContactForm/ContactForm';
 import MainBanner from './components/MainBanner/MainBanner';
-import DrinksCard from './components/DrinksCard/DrinksCard';
+import DrinksList from './components/DrinksList/DrinksList';
 
-import styles from './styles/App.module.scss';
-import "./styles/global.scss";
+import { AppContainer } from './styles/App.styles';
+import "./styles/global.css";
 
 class App extends React.Component {
   render(){
     return (
       <Router>
-        <div className={styles.appContainer}>
+        <AppContainer>
           <Header/>
           <Switch>
             <Route exact path="/">
@@ -24,11 +24,11 @@ class App extends React.Component {
               <ContactForm/>
             </Route>
             <Route path="/menu">
-              <DrinksCard/>
+              <DrinksList/>
             </Route>
           </Switch>
           <Footer/>
-        </div>
+        </AppContainer>
       </Router>
     );
   }

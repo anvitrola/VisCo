@@ -1,11 +1,12 @@
-.appContainer{
+import styled from "styled-components";
+
+export const AppContainer = styled.div`
     width: 100%;
-    max-height: 100vh;
     display: grid;
-    height: 100vh;
+    min-height: 100vh;
     grid-template-rows: 60px auto 50px;
     grid-template-areas: 
     "header header header"
     "main main main"
     "footer footer footer";
-}
+`;
