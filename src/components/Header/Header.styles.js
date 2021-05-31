@@ -14,6 +14,7 @@ export const HeaderContainer = styled.header`
 export const Logo = styled(Link)`
   text-decoration: none;
   color: var(--gold);
-  font-size: 2.5rem;
+  font-size: 2rem;
+  font-weight: 400;
   font-family: "Montserrat", sans-serif;
 `;

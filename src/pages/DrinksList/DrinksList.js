@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 
 //components
-import CustomCarousel from "../CustomCarousel/CustomCarousel";
-import NavBar from "../NavBar/NavBar";
-import TitleBox from "../TitleBox/TitleBox";
-import DrinkCard from "../DrinkCard/DrinkCard";
+import CustomCarousel from "../../components/CustomCarousel/CustomCarousel";
+import NavBar from "../../components/NavBar/NavBar";
+import TitleBox from "../../components/TitleBox/TitleBox";
+import DrinkCard from "../../components/DrinkCard/DrinkCard";
 
 //style
 import { Container, SectionOne, SectionTwo, Iframe } from "./DrinksList.styles";
