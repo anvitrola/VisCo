@@ -17,6 +17,7 @@ export const Btn = styled.button`
         background-color: var(--green);
         color: var(--gold);
     }
+    
     &:disabled{
         cursor: not-allowed;
     }

@@ -6,6 +6,9 @@ import NavBar from "../../components/NavBar/NavBar";
 import TitleBox from "../../components/TitleBox/TitleBox";
 import DrinkCard from "../../components/DrinkCard/DrinkCard";
 
+//fetch data
+import { GetDrinks } from "../../services/drinkServices";
+
 //style
 import { Container, SectionOne, SectionTwo, Iframe } from "./DrinksList.styles";
 
@@ -15,20 +18,7 @@ export default function DrinksList() {
 
   useEffect(() => {
     let fetchData = async () => {
-      const response = await fetch(
-        `https://www.thecocktaildb.com/api/json/v1/1/filter.php?c=Cocktail`
-      );
-      if (!response.ok) throw new Error("Request error!");
-
-      const data = (await response.json()).drinks;
-
-      const apiDrinks = data.map(({ strDrink, strDrinkThumb, idDrink }) => {
-        return {
-          name: strDrink,
-          thumbnail: strDrinkThumb,
-          id: idDrink,
-        };
-      });
+      let apiDrinks = await GetDrinks();
 
       setDrinks(apiDrinks);
       setLoading(false);

@@ -1,12 +1,22 @@
+import { Link } from "react-router-dom";
+
 import Button from "../Button/Button";
 import { Container } from "./TextDiv.styles";
 
-export default function TextDiv ({ title, text, isLeft }) {
+export default function TextDiv ({ title, subtitle, text, isLeft, hasLink, linkTo }) {
   return (
     <Container isLeft={isLeft}>
       <h3>{title}</h3>
+
+      {subtitle &&( <h5>{subtitle}</h5>)}
+
       <p>{text}</p>
-      <Button text={"Saiba mais"}/>
+
+      {hasLink && (
+        <Link to={`/${linkTo}`}>
+          <Button text={"More"}/>
+        </Link>
+      )}
     </Container>
   );
 };

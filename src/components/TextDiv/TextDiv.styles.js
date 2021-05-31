@@ -5,7 +5,7 @@ export const Container = styled.div`
   align-self: center;
   justify-self: center;
   width: 90%;
-  height: 26rem;
+  height: auto;
   background-color: ${props => props.isLeft ? "var(--pink)" : "var(--green-50)"};
   display: flex;
   flex-direction: column;
@@ -21,7 +21,34 @@ export const Container = styled.div`
     text-transform: uppercase;
   }
 
+  h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    color: var(--green);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  h5{
+    font-family: "Alegreya", sans-serif;
+    font-size: .8rem;
+    color: var(--green);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
   p {
+    font-family: "Alegreya", sans-serif;
+    line-height: 1.7rem;
+    color: var(--black);
+  }
+
+  a{
+    width: 50%;
+    align-self: flex-end;
+  }
+
+  li{
     font-family: "Alegreya", sans-serif;
     line-height: 1.7rem;
     color: var(--black);
