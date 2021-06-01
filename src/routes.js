@@ -4,6 +4,8 @@ import Contact from "./pages/Contact/Contact";
 import Main from "./pages/Main/Main";
 import DrinksList from "./pages/DrinksList/DrinksList";
 import DrinkExhi from "./pages/DrinkExhi/DrinkExhi";
+import SearchDrinks from "./pages/SearchDrinks/SearchDrinks";
+import FilteredDrinks from "./pages/FilteredDrinks/FilteredDrinks";
 
 export default function Router() {
   return (
@@ -22,6 +24,14 @@ export default function Router() {
 
       <Route path="/drink/:id">
         <DrinkExhi />
+      </Route>
+
+      <Route path="/search">
+        <SearchDrinks/>
+      </Route>
+
+      <Route path="/drinks/:filter">
+        <FilteredDrinks/>
       </Route>
     </Switch>
   );
