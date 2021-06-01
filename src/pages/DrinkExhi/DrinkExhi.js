@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
+import { IconContext } from "react-icons";
+import { BiArrowBack } from "react-icons/bi";
 import { useParams } from "react-router";
 import { Link } from "react-router-dom";
 
 //components
-import Button from "../../components/Button/Button";
 import EmptyDiv from "../../components/TextDiv/EmptyDiv";
 import TitleBox from "../../components/TitleBox/TitleBox";
+import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
 
 //service
 import { GetDrink } from "../../services/drinkServices";
@@ -34,12 +36,12 @@ function DrinkExhi() {
 
   return (
     <Container>
-      {loading ? (
-        <h2>loading...</h2>
-      ) : (
+      {!loading ? (
         <>
           <Link to="/menu">
-            <Button text={"Back"} />
+            <IconContext.Provider value={{ color: "var(--green)", size: "2.5rem" }}>
+              <BiArrowBack>Back</BiArrowBack>
+            </IconContext.Provider>
           </Link>
 
           <TitleBox
@@ -65,6 +67,8 @@ function DrinkExhi() {
 
           <img src={drink.thumbnail} alt={drink.name} />
         </>
+      ) : (
+        <LoadingSpinner />
       )}
     </Container>
   );

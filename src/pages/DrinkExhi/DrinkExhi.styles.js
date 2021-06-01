@@ -7,14 +7,14 @@ export const Container = styled.main`
   width: 90%;
   height: auto;
   padding: 0 2rem;
-  margin: 1rem 0 4rem 0;
+  margin: 2rem 0 4rem 0;
 
   grid-template-areas:
-    "button title"
-    "right photo";
-  grid-template-rows: 0.5fr 1fr;
-  grid-template-columns: 3fr 3fr;
-  grid-gap: 0.5rem;
+    "button title title"
+    "right right photo"
+    "right right photo";
+  grid-gap: 2rem;
+  grid-template-columns: 1fr 2fr 2fr;
 
   img {
     grid-area: photo;
@@ -25,8 +25,8 @@ export const Container = styled.main`
 
   a {
     grid-area: button;
-    align-self: center;
-    width: 50%;
+    align-self: end;
+    justify-self: start;
   }
 
   li {
@@ -42,6 +42,5 @@ export const Ingredients = styled.ul`
 
 export const Steps = styled.ul`
   align-self: flex-start;
-  list-style-type: upper-roman;
   margin-left: 1rem;
 `;

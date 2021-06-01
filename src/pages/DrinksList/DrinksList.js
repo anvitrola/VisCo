@@ -5,12 +5,13 @@ import CustomCarousel from "../../components/CustomCarousel/CustomCarousel";
 import NavBar from "../../components/NavBar/NavBar";
 import TitleBox from "../../components/TitleBox/TitleBox";
 import DrinkCard from "../../components/DrinkCard/DrinkCard";
+import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
 
 //fetch data
 import { GetDrinks } from "../../services/drinkServices";
 
 //style
-import { Container, SectionOne, SectionTwo, Iframe } from "./DrinksList.styles";
+import { Container, SectionOne, SectionTwo } from "./DrinksList.styles";
 
 export default function DrinksList() {
   const [drinks, setDrinks] = useState([]);
@@ -70,14 +71,7 @@ export default function DrinksList() {
           </SectionTwo>
         </>
       ) : (
-        <>
-        <h3>Loading...</h3>
-          <Iframe
-            src="https://giphy.com/embed/XEJ8bHp1N9i4OjgLwT"
-            frameBorder="0"
-            allowFullScreen
-          />
-        </>
+          <LoadingSpinner/>
       )}
     </Container>
   );

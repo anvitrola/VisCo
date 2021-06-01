@@ -8,10 +8,10 @@ export const Container = styled.main`
 
   display: grid;
   grid-template-areas:
-    "nav nav"
-    "title title"
-    "one one"
-    "two two";
+    "nav nav nav"
+    "title title title"
+    "one one one"
+    "two two two";
   grid-template-rows: 0.5fr 1fr 3fr 3fr;
   align-items: center;
   grid-gap: 1rem;
@@ -37,9 +37,4 @@ export const SectionOne = styled.section`
 
 export const SectionTwo = styled.section`
   grid-area: two;
-`;
-
-export const Iframe = styled.iframe`
-  width: 480px;
-  height: 270px;
 `;
