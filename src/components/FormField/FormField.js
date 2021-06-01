@@ -8,7 +8,7 @@ export default function FormField({ text, name, register, type, holder, required
         type={type}
         name={name}
         placeholder={holder}
-        required
+        required={required}
       />
     </>
   );

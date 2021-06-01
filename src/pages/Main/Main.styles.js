@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import banner from "../../images/banner1.png";
-
 
 export const MainArea = styled.main`
   grid-area: main;
@@ -17,8 +15,8 @@ export const MainArea = styled.main`
 export const Banner = styled.div`
   grid-area: banner;
   width: 100%;
-  height: 70vh;
-  background-image: url(${banner});
+  height: 90vh;
+  background-color: var(--green-50);
   background-attachment: fixed;
   background-podition: center;
   background-size: contain;

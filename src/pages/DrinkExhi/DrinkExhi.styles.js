@@ -23,12 +23,6 @@ export const Container = styled.main`
     justify-self: center;
   }
 
-  a {
-    grid-area: button;
-    align-self: end;
-    justify-self: start;
-  }
-
   li {
     font-family: "Alegreya", sans-serif;
   }

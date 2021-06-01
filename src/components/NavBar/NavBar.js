@@ -7,33 +7,33 @@ export default function NavBar({ isFilter }) {
       {!isFilter ? (
         <Navigation>
           <li>
-            <Link to="/menu">coquetéis</Link>
+            <Link to="/menu">cocktails</Link>
           </li>
           <li>
-            <Link to="/about">sobre</Link>
+            <Link to="/about">about</Link>
           </li>
           <li>
-            <Link to="/contact">contato</Link>
+            <Link to="/contact">contact</Link>
           </li>
           <li>
-            <Link to="/colaborator">colabore</Link>
+            <Link to="/colaborator">colab</Link>
           </li>
         </Navigation>
       ) : (
         <Filter>
-        <li>
-          <Link to="/alcoholic">Alcoólicos</Link>
-        </li>
-        <li>
-          <Link to="/non-alcoholic">Não-Alcoólicos</Link>
-        </li>
-        <li>
-          <Link to="/popular">Populares</Link>
-        </li>
-        <li>
-          <Link to="/search">Buscar</Link>
-        </li>
-      </Filter>
+          <li>
+            <Link to="/drinks/Alcoholic">Alcoholic</Link>
+          </li>
+          <li>
+            <Link to="/drinks/Non_Alcoholic">Non-Alcoholic</Link>
+          </li>
+          <li>
+            <Link to="/popular">Popular</Link>
+          </li>
+          <li>
+            <Link to="/search">Buscar</Link>
+          </li>
+        </Filter>
       )}
     </Bar>
   );

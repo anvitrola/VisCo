@@ -71,7 +71,7 @@ export default function DrinksList() {
           </SectionTwo>
         </>
       ) : (
-          <LoadingSpinner/>
+        <LoadingSpinner />
       )}
     </Container>
   );

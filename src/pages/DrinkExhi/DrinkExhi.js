@@ -1,15 +1,13 @@
 import React, { useEffect, useState } from "react";
-import { IconContext } from "react-icons";
-import { BiArrowBack } from "react-icons/bi";
 import { useParams } from "react-router";
-import { Link } from "react-router-dom";
 
 //components
 import EmptyDiv from "../../components/TextDiv/EmptyDiv";
 import TitleBox from "../../components/TitleBox/TitleBox";
 import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
+import BackButton from "../../components/Button/BackButton";
 
-//service
+//api fetch service
 import { GetDrink } from "../../services/drinkServices";
 
 //style
@@ -31,18 +29,13 @@ function DrinkExhi() {
     fetchData();
   }, [id]);
 
-  console.log(drink.ingredients);
   const recipe = String(drink.recipe).split(".");
 
   return (
     <Container>
       {!loading ? (
         <>
-          <Link to="/menu">
-            <IconContext.Provider value={{ color: "var(--green)", size: "2.5rem" }}>
-              <BiArrowBack>Back</BiArrowBack>
-            </IconContext.Provider>
-          </Link>
+          <BackButton color={"green"} backTo={"menu"} />
 
           <TitleBox
             title={drink.name}
