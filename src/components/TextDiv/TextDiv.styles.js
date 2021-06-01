@@ -1,12 +1,14 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  grid-area: ${props => props.isLeft ? "left" : "right"};
+  grid-area: ${(props) => (props.isLeft ? "left" : "right")};
   align-self: center;
-  justify-self: center;
+  justify-self: ${(props) => (props.isLeft ? "left" : "right")};
+  border-radius: 3px;
   width: 90%;
   height: auto;
-  background-color: ${props => props.isLeft ? "var(--pink)" : "var(--green-50)"};
+  background-color: ${(props) =>
+    props.isLeft ? "var(--pink)" : "var(--green-50)"};
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,22 +19,25 @@ export const Container = styled.div`
     font-family: "Montserrat", sans-serif;
     font-size: 2rem;
     color: var(--green);
+    margin-bottom: 1rem;
     letter-spacing: 1px;
     text-transform: uppercase;
   }
 
-  h4{
+  h4 {
     font-family: "Montserrat", sans-serif;
     font-size: 1.5rem;
+    margin: 1rem 0;
     color: var(--green);
     letter-spacing: 1px;
     text-transform: uppercase;
   }
 
-  h5{
+  h5 {
     font-family: "Alegreya", sans-serif;
-    font-size: .8rem;
-    color: var(--green);
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    color: var(--black);
     letter-spacing: 1px;
     text-transform: uppercase;
   }
@@ -43,12 +48,13 @@ export const Container = styled.div`
     color: var(--black);
   }
 
-  a{
+  a {
     width: 50%;
+    margin-top: 1rem;
     align-self: flex-end;
   }
 
-  li{
+  li {
     font-family: "Alegreya", sans-serif;
     line-height: 1.7rem;
     color: var(--black);
