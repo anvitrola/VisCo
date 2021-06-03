@@ -37,6 +37,7 @@ function CustomCarousel({ children }) {
       dotListClass="custom-dot-list-style"
       itemClass="carousel-item-padding-40-px"
       renderButtonGroupOutside={true}
+      className="animeLeft"
     >
       {children}
     </Carousel>

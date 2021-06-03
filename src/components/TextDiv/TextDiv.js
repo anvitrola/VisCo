@@ -5,7 +5,7 @@ import { Container } from "./TextDiv.styles";
 
 export default function TextDiv ({ title, subtitle, text, isLeft, hasLink, linkTo }) {
   return (
-    <Container isLeft={isLeft}>
+    <Container isLeft={isLeft} className="animeLeft">
       <h3>{title}</h3>
 
       {subtitle &&( <h5>{subtitle}</h5>)}

@@ -2,7 +2,7 @@ import { Container } from "./TextDiv.styles";
 
 export default function TextDiv ({ children}) {
   return (
-    <Container>
+    <Container className="animeLeft">
       {children}
     </Container>
   );

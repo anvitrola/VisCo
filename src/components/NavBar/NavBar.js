@@ -16,11 +16,11 @@ export default function NavBar({ isFilter }) {
             <Link to="/contact">contact</Link>
           </li>
           <li>
-            <Link to="/colaborator">colab</Link>
+            <Link to="/colab">colab</Link>
           </li>
         </Navigation>
       ) : (
-        <Filter>
+        <Filter className="animeLeft">
           <li>
             <Link to="/drinks/Alcoholic">Alcoholic</Link>
           </li>
@@ -28,10 +28,7 @@ export default function NavBar({ isFilter }) {
             <Link to="/drinks/Non_Alcoholic">Non-Alcoholic</Link>
           </li>
           <li>
-            <Link to="/popular">Popular</Link>
-          </li>
-          <li>
-            <Link to="/search">Buscar</Link>
+            <Link to="/search">Search</Link>
           </li>
         </Filter>
       )}

@@ -9,7 +9,7 @@ import wave from "../../images/wave.svg";
 
 function Banner() {
   return (
-    <Container>
+    <Container className="animeLeft">
       <Logo src={logo} alt={"Logo do site"} />
       <TitleBox
         title={"discover the world by tasting"}
