@@ -15,15 +15,22 @@ export const MainArea = styled.main`
 export const Banner = styled.div`
   grid-area: banner;
   width: 100%;
-  height: 90vh;
+  height: 70vh;
   background-color: var(--white);
   background-attachment: fixed;
   background-podition: center;
   background-size: contain;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 
+  div{
+    width: 50%;
+  }
+
+  img{
+    box-shadow: -7px 7px 0px 0px var(--gold);
+  }
 
 `;
 
@@ -31,7 +38,7 @@ export const AboutPicture = styled.img`
   grid-area: about;
   align-self: center;
   justify-self: start;
-  width: 400px;
+  width: 370px;
   box-shadow: 20px 20px 0px 0px var(--gold);
 `;
 
@@ -39,6 +46,6 @@ export const DrinkPicture = styled.img`
   grid-area: drink;
   align-self: center;
   justify-self: end;
-  width: 370px;
+  width: 400px;
   box-shadow: -20px 20px 0px 0px var(--gold);
 `;

@@ -1,4 +1,5 @@
 import  TextDiv from "../../components/TextDiv/TextDiv";
+import TitleBox from "../../components/TitleBox/TitleBox";
 
 //images 
 import barman from "../../images/barman.png";
@@ -12,9 +13,10 @@ export default function Main() {
     <MainArea>
       <Banner>
         <img src={logo} alt={"Logo do site"}/>
+        <TitleBox title={"discover the world by tasting"} subtitle={"the flavor is always in the skin"}/>
       </Banner>
-      <AboutPicture src={drink} alt="Imagem de um bar florido" />
-      <DrinkPicture src={barman} alt="Imagem de um bar florido" />
+      <AboutPicture src={barman} alt="Imagem de um bar florido" />
+      <DrinkPicture src={drink} alt="Imagem de um bar florido" />
 
       <TextDiv
         isLeft={true}
