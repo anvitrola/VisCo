@@ -16,10 +16,15 @@ export const Banner = styled.div`
   grid-area: banner;
   width: 100%;
   height: 90vh;
-  background-color: var(--green-50);
+  background-color: var(--white);
   background-attachment: fixed;
   background-podition: center;
   background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
 `;
 
 export const AboutPicture = styled.img`

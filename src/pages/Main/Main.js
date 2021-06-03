@@ -3,13 +3,16 @@ import  TextDiv from "../../components/TextDiv/TextDiv";
 //images 
 import barman from "../../images/barman.png";
 import drink from "../../images/honey_cocktail2.png";
+import logo from "../../images/logo_visco.png";
 
 import { MainArea, Banner, DrinkPicture, AboutPicture } from "./Main.styles";
 
 export default function Main() {
   return (
     <MainArea>
-      <Banner />
+      <Banner>
+        <img src={logo} alt={"Logo do site"}/>
+      </Banner>
       <AboutPicture src={drink} alt="Imagem de um bar florido" />
       <DrinkPicture src={barman} alt="Imagem de um bar florido" />
 

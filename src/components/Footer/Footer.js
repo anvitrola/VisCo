@@ -1,4 +1,6 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+
+//styles
 import { FooterContainer } from "./Footer.styles";
 
 export default function Footer() {
