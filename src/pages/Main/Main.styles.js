@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const MainArea = styled.main`
   grid-area: main;
   display: grid;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
   grid-template-rows: auto 1fr 1fr;
   grid-template-areas:
     "banner banner banner"
@@ -12,27 +12,6 @@ export const MainArea = styled.main`
   grid-gap: 2rem;
 `;
 
-export const Banner = styled.div`
-  grid-area: banner;
-  width: 100%;
-  height: 70vh;
-  background-color: var(--white);
-  background-attachment: fixed;
-  background-podition: center;
-  background-size: contain;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-
-  div{
-    width: 50%;
-  }
-
-  img{
-    box-shadow: -7px 7px 0px 0px var(--gold);
-  }
-
-`;
 
 export const AboutPicture = styled.img`
   grid-area: about;
