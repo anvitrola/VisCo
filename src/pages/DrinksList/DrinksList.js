@@ -32,15 +32,15 @@ export default function DrinksList() {
   const halfTwo = drinks.slice(50, 100);
 
   return (
-    <Container>
+    <Container >
       {!loading ? (
         <>
           <NavBar isFilter={true} />
 
           <TitleBox
-            title={"Coquetéis"}
+            title={"Cocktails"}
             subtitle={
-              "Dos mais famosos e sofisticados aos mais rústicos e exóticos"
+              "From the most famous and sofisticated to the most rustic and exotic."
             }
           />
 

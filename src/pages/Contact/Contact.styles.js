@@ -4,25 +4,16 @@ export const Container = styled.section`
   grid-area: main;
   justify-self: center;
   align-self: center;
-  width: 95%;
+  width: 90%;
   height: 90%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1.5rem;
+  grid-gap: 3rem;
+  padding-bottom: 5rem;
   grid-template-areas:
     "title title"
     "image form"
     "image form";
-
-  h1 {
-    grid-area: title;
-    text-align: center;
-    align-self: center;
-    letter-spacing: 3px;
-    color: var(--green);
-    font-family: "Exo 2", sans-serif;
-    text-transform: uppercase;
-  }
 
   form {
     grid-area: form;
@@ -41,8 +32,8 @@ export const Field = styled.div`
 `;
 
 export const Image = styled.img`
-    grid-area: image;
-    width: 100%;
-    box-shadow: 15px -16px var(--gold);
-    align-self: center;
+  grid-area: image;
+  width: 100%;
+  box-shadow: -10px 10px var(--green-50);
+  align-self: center;
 `;

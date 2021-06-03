@@ -32,7 +32,7 @@ export default function Main() {
           "Dos mais tradicionais aos mais ousados, o VisCo tem como objetivo unir em um só lugar receitas de coquetéis diversos. Para o happy-hour, para surpreender alguém ou mesmo para se divertir sozinho, o processo de fazer um coquetel tem o seu lado encantador e charmoso. Preparar um drink está para além de apenas misturar bebidas visando o teor alcoólico, é ampliar todos os sentidos para capturar os aromas, os sabores, as sensações a fim de gerar memórias e experiências incríveis."
         }
         hasLink={true}
-        linkTo={"contato"}
+        linkTo={"contact"}
       />
 
 
