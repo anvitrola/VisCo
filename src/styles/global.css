@@ -1,28 +1,42 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-:root{
-    --green: #006859;
-    --gold: #f6d0a3;
-    --pink: #f8dadb;
-    --black: #242424;
-    --white: #fff;
-    --green-50: #acd8c6;
-    --snow: #f4f4f4;
-    --gray-50: #F7F8FA;
+:root {
+  --green: #006859;
+  --gold: #f6d0a3;
+  --pink: #f8dadb;
+  --black: #242424;
+  --white: #fff;
+  --green-50: #acd8c6;
+  --green-10: hsla(171, 100%, 20%, 020%);
+  --snow: #f4f4f4;
+  --gray-50: #f7f8fa;
 }
 
-body{
-    background-color: var(--gray-50);
+body {
+  background-color: var(--gray-50);
 }
 
-ul{
-    list-style-type: none;
+ul {
+  list-style-type: none;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
+}
+
+.animeLeft {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: animeLeft 1s forwards;
+}
+
+@keyframes animeLeft {
+  to {
+    opacity: initial;
+    transform: initial;
+  }
 }

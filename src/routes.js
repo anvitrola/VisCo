@@ -6,12 +6,14 @@ import DrinksList from "./pages/DrinksList/DrinksList";
 import DrinkExhi from "./pages/DrinkExhi/DrinkExhi";
 import SearchDrinks from "./pages/SearchDrinks/SearchDrinks";
 import FilteredDrinks from "./pages/FilteredDrinks/FilteredDrinks";
+import About from "./pages/About/About";
+import Colab from "./pages/Colab/Colab";
 
 export default function Router() {
   return (
     <Switch>
       <Route exact path="/">
-        <Main/>
+        <Main />
       </Route>
 
       <Route path="/contact">
@@ -27,11 +29,19 @@ export default function Router() {
       </Route>
 
       <Route path="/search">
-        <SearchDrinks/>
+        <SearchDrinks />
       </Route>
 
       <Route path="/drinks/:filter">
-        <FilteredDrinks/>
+        <FilteredDrinks />
+      </Route>
+
+      <Route path="/about">
+        <About />
+      </Route>
+
+      <Route path="/colab">
+        <Colab />
       </Route>
     </Switch>
   );
