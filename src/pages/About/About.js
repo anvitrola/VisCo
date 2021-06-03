@@ -13,7 +13,7 @@ function About() {
         title={"Vis co."}
         subtitle={"The power of tasting"}
         text={
-          "Este website é fruto de uma linda trajetória na Resilia Educação, instituição na qual pude iniciar minha formação enquanto desenvolvedora."
+          "Vis co. is the result of all the knowledge I have acumulated during my wonderful journey in Resilia Educação, institution where i could start learning web development and, mostly, find myself as an IT profesional. This represents the end of a very meaningful phase and the beginning of a brand new one, which I'm so excited to begin. (Plus I truly hope this website can help people drink less soda with pure vodka and taste better cocktails!)"
         }
       />
       <TextDiv

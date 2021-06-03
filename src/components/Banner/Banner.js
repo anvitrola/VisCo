@@ -12,7 +12,7 @@ function Banner() {
     <Container className="animeLeft">
       <Logo src={logo} alt={"Logo do site"} />
       <TitleBox
-        title={"discover the world by tasting"}
+        title={"discover the world by tasting it"}
         subtitle={"the flavor is always in the skin"}
       />
       <Wave src={wave} alt={"Onda"} />

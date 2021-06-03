@@ -18,21 +18,21 @@ export default function Main() {
 
       <TextDiv
         isLeft={true}
-        title={"sobre"}
+        title={"about"}
         text={
-          "Dos mais tradicionais aos mais ousados, o VisCo tem como objetivo unir em um só lugar receitas de coquetéis diversos. Para o happy-hour, para surpreender alguém ou mesmo para se divertir sozinho, o processo de fazer um coquetel tem o seu lado encantador e charmoso. Preparar um drink está para além de apenas misturar bebidas visando o teor alcoólico, é ampliar todos os sentidos para capturar os aromas, os sabores, as sensações a fim de gerar memórias e experiências incríveis."
+          "From the most tradicional to the boldier, VisCo serves the pourpose to unite in one place amazing cocktails recipes for you to prepare for the happy-hour, for surprising someone or even to have fun all by yourself. The process of preparing a good cocktail is magical in a very charming and enchanting way, because to make a really good cocktail is beyond mixing random alcoholic stuff, it's amplify your senses to capture the flavor, the smell, the feelings. To make a cocktail is to taste the world itself, have amazing experiences and, mostly, make memories."
         }
         hasLink={true}
         linkTo={"about"}
       />
 
       <TextDiv
-        title={"bastidores"}
+        title={"behind the code"}
         text={
-          "Dos mais tradicionais aos mais ousados, o VisCo tem como objetivo unir em um só lugar receitas de coquetéis diversos. Para o happy-hour, para surpreender alguém ou mesmo para se divertir sozinho, o processo de fazer um coquetel tem o seu lado encantador e charmoso. Preparar um drink está para além de apenas misturar bebidas visando o teor alcoólico, é ampliar todos os sentidos para capturar os aromas, os sabores, as sensações a fim de gerar memórias e experiências incríveis."
+          "You can have the opportunity to make this website better. This is an open-source project, click below to know how!"
         }
         hasLink={true}
-        linkTo={"contact"}
+        linkTo={"colab"}
       />
 
 
