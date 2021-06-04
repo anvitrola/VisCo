@@ -1,6 +1,6 @@
 
 <div align="center">
-  <h1>Vis co.</h1>
+  <h1>VIS co.</h1>
   <h2>Discover the world by tasting it </h2>    
     <hr />    
     <p>
