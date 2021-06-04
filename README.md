@@ -81,24 +81,6 @@ $ npm start
 #### 6️⃣ O servidor inciará na porta:3000 - acesse <http://localhost:3000> 
 
 
-## Desenvolvedora Front-end 😋🌸
-
-
-<table>      
-  <tr>    
-    <td align="center">
-      <a href="https://github.com/anvitrola">
-        <img src="https://avatars.githubusercontent.com/u/62806299" width="100px;" alt="Foto de perfil do Github"/><br>
-        <sub>
-          <b>Ana Vitória Viana</b>
-        </sub>
-      </a>
-    </td>    
-  </tr>     
-</table>
-
-
-
 </br>
 
 ![image](https://user-images.githubusercontent.com/62806299/120728106-8f293f80-c4b2-11eb-951b-d79fb1cfbc25.png)
