@@ -92,5 +92,5 @@ $ npm start
   <h1>Open Source 🌙</h1>
     <h3>Contruibuições são bem-vindas, desde que aberto um pull request e requisitado meu review.</h3>
   <sub>Copyright © por anvitrola, 2021</sub>
-  <p>DOARTE <a href="https://github.com/anvitrola/doarte-app/blob/responsiveness/LICENSE">is MIT licensed 💖</a></p>
+  <p>VIS co <a href="https://github.com/anvitrola/doarte-app/blob/responsiveness/LICENSE">is MIT licensed 💖</a></p>
 </div>
