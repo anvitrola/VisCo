@@ -18,6 +18,9 @@
 
 </div>
 
+![image](https://user-images.githubusercontent.com/62806299/120727768-c3e8c700-c4b1-11eb-832e-5af3d9e05e71.png)
+
+
 ## 🌼🍸Sobre o projeto
 <p>
     O Vis co. surgiu da necessidade de se re-inventar. Como projeto de fim de curso, a <b>Resilia Educação</b> propôs aos estudantes da <b>T4 Resilia + Stone</b> consumissem a API <a href="https://www.thecocktaildb.com/">The Cocktail DB</a> e construíssem uma aplicação usando React.js. No entanto, o Vis co. se tornou mais que um simples projeto e hoje é uma plataforma em que as pessoas podem acessar para consultar receitas de coquetéis a fim de experienciar o mundo de outras formas. Além disso, o Vis cocktails representa o fim de uma linda jornada e o início de um universo, um big-bang de possibilidades. Um brinde! 🍻😊
@@ -97,6 +100,11 @@ $ npm start
 
 
 </br>
+
+![image](https://user-images.githubusercontent.com/62806299/120728106-8f293f80-c4b2-11eb-951b-d79fb1cfbc25.png)
+![image](https://user-images.githubusercontent.com/62806299/120728168-b54edf80-c4b2-11eb-9d04-89073e07dcb8.png)
+![image](https://user-images.githubusercontent.com/62806299/120728309-ff37c580-c4b2-11eb-820d-0c884f782486.png)
+
 
 <div align="center">
   <h1>Open Source 🌙</h1>
