@@ -40,7 +40,7 @@ function SearchDrinks() {
           onChange={(e) => setSearch(e.target.value)}
           placeholder={"Type a cocktail name"}
         />
-        <Button text={"search"} type={"submit"} secondary={true} />
+        <Button text={"search"} secondary={true} />
       </SearchForm>
 
       <section>

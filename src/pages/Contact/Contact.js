@@ -27,7 +27,7 @@ export default function Contact() {
           <FormField text={"Mensagem"} name={"message"} type={"textarea"} />
         </Field>
 
-        <Button type={"submit"} text={"Enviar"} />
+        <Button text={"Enviar"} />
       </form>
     </Container>
   );

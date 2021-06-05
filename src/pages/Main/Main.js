@@ -20,7 +20,7 @@ export default function Main() {
         isLeft={true}
         title={"about"}
         text={
-          "From the most tradicional to the boldier, VisCo serves the pourpose to unite in one place amazing cocktails recipes for you to prepare for the happy-hour, for surprising someone or even to have fun all by yourself. The process of preparing a good cocktail is magical in a very charming and enchanting way, because to make a really good cocktail is beyond mixing random alcoholic stuff, it's amplify your senses to capture the flavor, the smell, the feelings. To make a cocktail is to taste the world itself, have amazing experiences and, mostly, make memories."
+          "From the most tradicional to the boldier, VisCo serves the pourpose to unite in one place amazing cocktails recipes for you to prepare for the happy-hour, for surprising someone or even to have fun all by yourself. The process of preparing a good cocktail is magical in a very charming and enchanting way, because to make a really good cocktail is beyond mixing random alcoholic stuff, it amplifies your senses to capture the flavor, the smell and... the feelings. To make a cocktail is to taste the world itself, have amazing experiences and, mostly, make memories."
         }
         hasLink={true}
         linkTo={"about"}
