@@ -5,14 +5,14 @@
 }
 
 :root {
-  --green: #006859;
+  --green: #085542;
   --gold: #f6d0a3;
-  --pink: #f8dadb;
+  --bege: #d38557e0;
   --black: #242424;
   --white: #fff;
   --green-50: #acd8c6;
-  --green-10: hsla(171, 100%, 20%, 020%);
   --snow: #f4f4f4;
+  --green-100: #113E2F;
   --gray-50: #f7f8fa;
 }
 
