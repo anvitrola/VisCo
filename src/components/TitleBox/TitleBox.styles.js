@@ -12,6 +12,10 @@ export const Container = styled.div`
     border: 0.5px solid var(--gold);
     margin-top: 1.3rem;
   }
+
+  @media screen and (max-width: 720px){
+    display: none;
+  }
 `;
 
 export const Title = styled.h1`

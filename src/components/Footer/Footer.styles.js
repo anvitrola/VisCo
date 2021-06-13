@@ -26,4 +26,12 @@ export const FooterContainer = styled.footer`
       margin: 2px 6px;
     }
   }
+
+  @media screen and (max-width: 720px){
+    padding: 1rem;
+
+    p{
+      width: 90%;
+    }
+  }
 `;

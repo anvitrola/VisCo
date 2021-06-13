@@ -6,9 +6,9 @@ export const Container = styled.div`
   justify-self: ${(props) => (props.isLeft ? "left" : "right")};
   border-radius: 3px;
   width: 90%;
-  height: auto;
+  height: ${(props) => (props.isExhibition ? "auto" : "20rem")};
   background-color: ${(props) =>
-    props.isLeft ? "var(--pink)" : "var(--green-50)"};
+    props.isLeft ? "var(--bege)" : "var(--green-50)"};
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,7 +18,7 @@ export const Container = styled.div`
   h3 {
     font-family: "Montserrat", sans-serif;
     font-size: 2rem;
-    color: var(--green);
+    color: ${(props) => (props.isLeft ? "var(--gold)" : "var(--green)")};
     margin-bottom: 1rem;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -45,7 +45,7 @@ export const Container = styled.div`
   p {
     font-family: "Alegreya", sans-serif;
     line-height: 1.7rem;
-    color: var(--black);
+    color: ${(props) => (props.isLeft ? "var(--white)" : "var(--black)")};
   }
 
   a {
@@ -58,5 +58,10 @@ export const Container = styled.div`
     font-family: "Alegreya", sans-serif;
     line-height: 1.7rem;
     color: var(--black);
+  }
+
+  @media screen and (max-width: 720px){
+    width: 90%;
+    height: auto;
   }
 `;

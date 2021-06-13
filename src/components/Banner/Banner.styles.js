@@ -15,6 +15,13 @@ export const Container = styled.div`
   grid-template-rows: 1fr auto;
   grid-template-columns: 1fr 2fr;
 
+  @media screen and (max-width: 720px){
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: space-between;
+  }
+
 `;
 
 export const Logo = styled.img`
@@ -22,6 +29,10 @@ export const Logo = styled.img`
   width: 370px;
   align-self: center;
   justify-self: end;
+
+  @media screen and (max-width: 720px){
+    width: 300px;
+  }
 `
 
 export const Wave = styled.img`
