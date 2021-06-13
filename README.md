@@ -7,7 +7,7 @@
         <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">
             <img src="https://img.shields.io/badge/language-Javascript-yellow" alt="Repo Main Language" />
         </a>
-        <a href="https://doarte-app.herokuapp.com/">
+        <a href="https://vis-co.netlify.app/">
                     <img src="https://img.shields.io/badge/platform-web-blueviolet" alt="Project Platform" />
         </a>
         <a href="https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt">
