@@ -59,9 +59,4 @@ export const Container = styled.div`
     line-height: 1.7rem;
     color: var(--black);
   }
-
-  @media screen and (max-width: 720px){
-    width: 90%;
-    height: auto;
-  }
 `;

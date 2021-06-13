@@ -9,8 +9,4 @@ export const AppContainer = styled.div`
     "header header header"
     "main main main"
     "footer footer footer";
-
-    @media screen and (max-width: 720px){
-        grid-template-rows: 80px auto auto;
-    }
 `;

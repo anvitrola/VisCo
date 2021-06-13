@@ -11,11 +11,6 @@ export const MainArea = styled.main`
     "left left about"
     "drink right right";
   grid-gap: 2rem;
-
-  @media screen and (max-width: 720px){
-    display: flex;
-    flex-direction: column;
-  }
 `;
 
 export const AboutPicture = styled.img`
@@ -23,10 +18,6 @@ export const AboutPicture = styled.img`
   align-self: center;
   justify-self: start;
   width: 390px;
-
-  @media screen and (max-width: 720px){
-    display: none;
-  }
 `;
 
 export const DrinkPicture = styled.img`
@@ -34,8 +25,4 @@ export const DrinkPicture = styled.img`
   align-self: center;
   justify-self: end;
   width: 410px;
-
-  @media screen and (max-width: 720px){
-    display: none;
-  }
 `;
