@@ -13,8 +13,8 @@ export default function Main() {
     <MainArea>
       <Banner/>
 
-      <AboutPicture src={barman} alt="Imagem de um bar florido" />
-      <DrinkPicture src={drink} alt="Imagem de um bar florido" />
+      <AboutPicture src={barman} alt="" />
+      <DrinkPicture src={drink} alt="" />
 
       <TextDiv
         isLeft={true}
@@ -29,7 +29,7 @@ export default function Main() {
       <TextDiv
         title={"behind the code"}
         text={
-          "You can have the opportunity to make this website better. This is an open-source project, click below to know how!"
+          "We believe community is essential to make things better. So, you can also be a part of this and have the opportunity to improve this website. This is an open-source project, click below to know more!"
         }
         hasLink={true}
         linkTo={"colab"}

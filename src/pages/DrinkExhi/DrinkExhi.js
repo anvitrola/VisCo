@@ -42,7 +42,7 @@ function DrinkExhi() {
             subtitle={`${drink.category} - ${drink.alcoolhic}`}
           />
 
-          <EmptyDiv>
+          <EmptyDiv isExhibition={true}>
             <h3>ingredients</h3>
             <h5>{drink.glass}</h5>
             <Ingredients>
