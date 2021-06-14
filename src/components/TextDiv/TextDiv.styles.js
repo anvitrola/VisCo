@@ -8,7 +8,7 @@ export const Container = styled.div`
   width: 90%;
   height: ${(props) => (props.isExhibition ? "auto" : "20rem")};
   background-color: ${(props) =>
-    props.isLeft ? "var(--bege)" : "var(--green-50)"};
+    props.isLeft ? "var(--bege)" : "var(--okri)"};
   display: flex;
   flex-direction: column;
   align-items: center;
