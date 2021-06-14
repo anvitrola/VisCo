@@ -45,7 +45,7 @@ export const Container = styled.div`
   p {
     font-family: "Alegreya", sans-serif;
     line-height: 1.7rem;
-    color: ${(props) => (props.isLeft ? "var(--white)" : "var(--black)")};
+    color: var(--white);
   }
 
   a {
@@ -57,6 +57,6 @@ export const Container = styled.div`
   li {
     font-family: "Alegreya", sans-serif;
     line-height: 1.7rem;
-    color: var(--black);
+    color: var(--white);
   }
 `;
